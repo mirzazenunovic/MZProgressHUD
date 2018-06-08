@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D8B8C1120CAABD900421ED1 /* MZProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8B8C0720CAABD900421ED1 /* MZProgressHUD.framework */; };
+		1D8B8C1620CAABD900421ED1 /* MZProgressHUDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8B8C1520CAABD900421ED1 /* MZProgressHUDTests.swift */; };
+		1D8B8C1820CAABD900421ED1 /* MZProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D8B8C0A20CAABD900421ED1 /* MZProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D8B8C2220CAAC2400421ED1 /* MLProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8B8C2120CAAC2400421ED1 /* MLProgressHUD.swift */; };
+		376156F9F903023CA3F8E557 /* Pods_MZProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E6B03A55069A55A00DBF64A /* Pods_MZProgressHUD.framework */; };
+		B01538A6E5DD20F3E2F1FEB9 /* Pods_MZProgressHUDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD5C50AB977F5745466FA25 /* Pods_MZProgressHUDTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D8B8C1220CAABD900421ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D8B8BFE20CAABD900421ED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D8B8C0620CAABD900421ED1;
+			remoteInfo = MZProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D8B8C0720CAABD900421ED1 /* MZProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8B8C0A20CAABD900421ED1 /* MZProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZProgressHUD.h; sourceTree = "<group>"; };
+		1D8B8C0B20CAABD900421ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D8B8C1020CAABD900421ED1 /* MZProgressHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZProgressHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8B8C1520CAABD900421ED1 /* MZProgressHUDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZProgressHUDTests.swift; sourceTree = "<group>"; };
+		1D8B8C1720CAABD900421ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D8B8C2120CAAC2400421ED1 /* MLProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLProgressHUD.swift; sourceTree = "<group>"; };
+		3E6B03A55069A55A00DBF64A /* Pods_MZProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		735BC72E16825CC91EE663FD /* Pods-MZProgressHUDTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZProgressHUDTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZProgressHUDTests/Pods-MZProgressHUDTests.release.xcconfig"; sourceTree = "<group>"; };
+		77B41BD0CFFF54C54899A1F8 /* Pods-MZProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZProgressHUD.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZProgressHUD/Pods-MZProgressHUD.release.xcconfig"; sourceTree = "<group>"; };
+		7CD5C50AB977F5745466FA25 /* Pods_MZProgressHUDTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZProgressHUDTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9B5948155E4E0EB76D1004 /* Pods-MZProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZProgressHUD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MZProgressHUD/Pods-MZProgressHUD.debug.xcconfig"; sourceTree = "<group>"; };
+		F20993E282197C6D4714C2F6 /* Pods-MZProgressHUDTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZProgressHUDTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MZProgressHUDTests/Pods-MZProgressHUDTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D8B8C0320CAABD900421ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376156F9F903023CA3F8E557 /* Pods_MZProgressHUD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8B8C0D20CAABD900421ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8B8C1120CAABD900421ED1 /* MZProgressHUD.framework in Frameworks */,
+				B01538A6E5DD20F3E2F1FEB9 /* Pods_MZProgressHUDTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D8B8BFD20CAABD900421ED1 = {
+			isa = PBXGroup;
+			children = (
+				1D8B8C0920CAABD900421ED1 /* MZProgressHUD */,
+				1D8B8C1420CAABD900421ED1 /* MZProgressHUDTests */,
+				1D8B8C0820CAABD900421ED1 /* Products */,
+				E309BB6A6405E1B19CCFA6B1 /* Pods */,
+				4366976CEF08CEC18EBA1DD5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D8B8C0820CAABD900421ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D8B8C0720CAABD900421ED1 /* MZProgressHUD.framework */,
+				1D8B8C1020CAABD900421ED1 /* MZProgressHUDTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D8B8C0920CAABD900421ED1 /* MZProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1D8B8C2320CAC19C00421ED1 /* Classes */,
+				1D8B8C0A20CAABD900421ED1 /* MZProgressHUD.h */,
+				1D8B8C0B20CAABD900421ED1 /* Info.plist */,
+			);
+			path = MZProgressHUD;
+			sourceTree = "<group>";
+		};
+		1D8B8C1420CAABD900421ED1 /* MZProgressHUDTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D8B8C1520CAABD900421ED1 /* MZProgressHUDTests.swift */,
+				1D8B8C1720CAABD900421ED1 /* Info.plist */,
+			);
+			path = MZProgressHUDTests;
+			sourceTree = "<group>";
+		};
+		1D8B8C2320CAC19C00421ED1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D8B8C2120CAAC2400421ED1 /* MLProgressHUD.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4366976CEF08CEC18EBA1DD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E6B03A55069A55A00DBF64A /* Pods_MZProgressHUD.framework */,
+				7CD5C50AB977F5745466FA25 /* Pods_MZProgressHUDTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E309BB6A6405E1B19CCFA6B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D9B5948155E4E0EB76D1004 /* Pods-MZProgressHUD.debug.xcconfig */,
+				77B41BD0CFFF54C54899A1F8 /* Pods-MZProgressHUD.release.xcconfig */,
+				F20993E282197C6D4714C2F6 /* Pods-MZProgressHUDTests.debug.xcconfig */,
+				735BC72E16825CC91EE663FD /* Pods-MZProgressHUDTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D8B8C0420CAABD900421ED1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8B8C1820CAABD900421ED1 /* MZProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D8B8C0620CAABD900421ED1 /* MZProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8B8C1B20CAABD900421ED1 /* Build configuration list for PBXNativeTarget "MZProgressHUD" */;
+			buildPhases = (
+				D541419F8FD1B029720D3B03 /* [CP] Check Pods Manifest.lock */,
+				1D8B8C0220CAABD900421ED1 /* Sources */,
+				1D8B8C0320CAABD900421ED1 /* Frameworks */,
+				1D8B8C0420CAABD900421ED1 /* Headers */,
+				1D8B8C0520CAABD900421ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZProgressHUD;
+			productName = MZProgressHUD;
+			productReference = 1D8B8C0720CAABD900421ED1 /* MZProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1D8B8C0F20CAABD900421ED1 /* MZProgressHUDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8B8C1E20CAABD900421ED1 /* Build configuration list for PBXNativeTarget "MZProgressHUDTests" */;
+			buildPhases = (
+				0253895DDB56F307AEDFB113 /* [CP] Check Pods Manifest.lock */,
+				1D8B8C0C20CAABD900421ED1 /* Sources */,
+				1D8B8C0D20CAABD900421ED1 /* Frameworks */,
+				1D8B8C0E20CAABD900421ED1 /* Resources */,
+				D91C73070B9FBF553E99257E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D8B8C1320CAABD900421ED1 /* PBXTargetDependency */,
+			);
+			name = MZProgressHUDTests;
+			productName = MZProgressHUDTests;
+			productReference = 1D8B8C1020CAABD900421ED1 /* MZProgressHUDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D8B8BFE20CAABD900421ED1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = MobiLab;
+				TargetAttributes = {
+					1D8B8C0620CAABD900421ED1 = {
+						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0930;
+					};
+					1D8B8C0F20CAABD900421ED1 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1D8B8C0120CAABD900421ED1 /* Build configuration list for PBXProject "MZProgressHUD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D8B8BFD20CAABD900421ED1;
+			productRefGroup = 1D8B8C0820CAABD900421ED1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D8B8C0620CAABD900421ED1 /* MZProgressHUD */,
+				1D8B8C0F20CAABD900421ED1 /* MZProgressHUDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D8B8C0520CAABD900421ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8B8C0E20CAABD900421ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0253895DDB56F307AEDFB113 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MZProgressHUDTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D541419F8FD1B029720D3B03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MZProgressHUD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D91C73070B9FBF553E99257E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MZProgressHUDTests/Pods-MZProgressHUDTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Neon/Neon.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Neon.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MZProgressHUDTests/Pods-MZProgressHUDTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D8B8C0220CAABD900421ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8B8C2220CAAC2400421ED1 /* MLProgressHUD.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8B8C0C20CAABD900421ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8B8C1620CAABD900421ED1 /* MZProgressHUDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D8B8C1320CAABD900421ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D8B8C0620CAABD900421ED1 /* MZProgressHUD */;
+			targetProxy = 1D8B8C1220CAABD900421ED1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D8B8C1920CAABD900421ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D8B8C1A20CAABD900421ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D8B8C1C20CAABD900421ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D9B5948155E4E0EB76D1004 /* Pods-MZProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WVFNZ69YX7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MZProgressHUD/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mirza.MZProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D8B8C1D20CAABD900421ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B41BD0CFFF54C54899A1F8 /* Pods-MZProgressHUD.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WVFNZ69YX7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MZProgressHUD/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mirza.MZProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1D8B8C1F20CAABD900421ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F20993E282197C6D4714C2F6 /* Pods-MZProgressHUDTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVFNZ69YX7;
+				INFOPLIST_FILE = MZProgressHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mirza.MZProgressHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D8B8C2020CAABD900421ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 735BC72E16825CC91EE663FD /* Pods-MZProgressHUDTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVFNZ69YX7;
+				INFOPLIST_FILE = MZProgressHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mirza.MZProgressHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D8B8C0120CAABD900421ED1 /* Build configuration list for PBXProject "MZProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8B8C1920CAABD900421ED1 /* Debug */,
+				1D8B8C1A20CAABD900421ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D8B8C1B20CAABD900421ED1 /* Build configuration list for PBXNativeTarget "MZProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8B8C1C20CAABD900421ED1 /* Debug */,
+				1D8B8C1D20CAABD900421ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D8B8C1E20CAABD900421ED1 /* Build configuration list for PBXNativeTarget "MZProgressHUDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8B8C1F20CAABD900421ED1 /* Debug */,
+				1D8B8C2020CAABD900421ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D8B8BFE20CAABD900421ED1 /* Project object */;
+}
